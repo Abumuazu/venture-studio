@@ -23,7 +23,7 @@
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-slick": "^0.29.0",
+    "react-slick": "^0.30.3",
     "react-spring": "9.7.3",
     "slick-carousel": "^1.8.1",
     "tailwind-merge": "^2.5.5",
@@ -31,8 +31,8 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.0.4"
   },
+  "packageManager": "yarn@3.6.0+sha512.418e45c2268c4d6b69a28f3939084b5853d5f392c43c0b5588bd1995a96e328414ae4b7777a8980c64bad4328c52586ff879b289f98ae65372a55fa4d0ff70dd",
   "devDependencies": {
-    "@types/react-slick": "^0.23.10"
-  },
-  "packageManager": "yarn@3.6.0+sha512.418e45c2268c4d6b69a28f3939084b5853d5f392c43c0b5588bd1995a96e328414ae4b7777a8980c64bad4328c52586ff879b289f98ae65372a55fa4d0ff70dd"
+    "@types/react-slick": "^0.23.13"
+  }
 }

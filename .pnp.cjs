@@ -33,7 +33,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.2.0"],\
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
-            ["@types/react-slick", "npm:0.23.13"],\
             ["autoprefixer", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:10.4.14"],\
             ["clsx", "npm:2.1.1"],\
             ["cobe", "npm:0.6.3"],\
@@ -43,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.23"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:18.2.0"],\
-            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.29.0"],\
+            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.30.3"],\
             ["react-spring", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:9.7.3"],\
             ["slick-carousel", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:1.8.1"],\
             ["tailwind-merge", "npm:2.5.5"],\
@@ -832,16 +831,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-react-dom-npm-18.2.4-5d62ac2096-8301f35cf1.zip/node_modules/@types/react-dom/",\
           "packageDependencies": [\
             ["@types/react-dom", "npm:18.2.4"],\
-            ["@types/react", "npm:19.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/react-slick", [\
-        ["npm:0.23.13", {\
-          "packageLocation": "./.yarn/cache/@types-react-slick-npm-0.23.13-ad62d6348a-3e363220dd.zip/node_modules/@types/react-slick/",\
-          "packageDependencies": [\
-            ["@types/react-slick", "npm:0.23.13"],\
             ["@types/react", "npm:19.0.2"]\
           ],\
           "linkType": "HARD"\
@@ -1746,7 +1735,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.2.0"],\
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
-            ["@types/react-slick", "npm:0.23.13"],\
             ["autoprefixer", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:10.4.14"],\
             ["clsx", "npm:2.1.1"],\
             ["cobe", "npm:0.6.3"],\
@@ -1756,7 +1744,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.23"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:18.2.0"],\
-            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.29.0"],\
+            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.30.3"],\
             ["react-spring", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:9.7.3"],\
             ["slick-carousel", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:1.8.1"],\
             ["tailwind-merge", "npm:2.5.5"],\
@@ -4377,17 +4365,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["react-slick", [\
-        ["npm:0.29.0", {\
-          "packageLocation": "./.yarn/cache/react-slick-npm-0.29.0-28db290b04-67ce498191.zip/node_modules/react-slick/",\
+        ["npm:0.30.3", {\
+          "packageLocation": "./.yarn/cache/react-slick-npm-0.30.3-5aedc4dd11-f7f843c4fb.zip/node_modules/react-slick/",\
           "packageDependencies": [\
-            ["react-slick", "npm:0.29.0"]\
+            ["react-slick", "npm:0.30.3"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.29.0", {\
-          "packageLocation": "./.yarn/__virtual__/react-slick-virtual-335feda12d/0/cache/react-slick-npm-0.29.0-28db290b04-67ce498191.zip/node_modules/react-slick/",\
+        ["virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.30.3", {\
+          "packageLocation": "./.yarn/__virtual__/react-slick-virtual-4074651188/0/cache/react-slick-npm-0.30.3-5aedc4dd11-f7f843c4fb.zip/node_modules/react-slick/",\
           "packageDependencies": [\
-            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.29.0"],\
+            ["react-slick", "virtual:54ed6c2341c4ce4797d7bfdfacd2db57754dc032d622d487bee4768460ae9c7813ce9007acf06aff29337cb41705734d48a1c438244ba44c5fece7ae4a48a4ee#npm:0.30.3"],\
             ["@types/react", "npm:18.2.6"],\
             ["@types/react-dom", "npm:18.2.4"],\
             ["classnames", "npm:2.5.1"],\

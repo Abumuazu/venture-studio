@@ -99,6 +99,9 @@ const data: Data[] = [
     {
         imgSrc: "/assets/carousel/Mavenaide Logo .png"
     },
+    {
+        imgSrc: "/assets/carousel/Prizeless Logo.png"
+    },
 ];
 
 
@@ -110,6 +113,7 @@ const fileNames = data.map(item => {
 // CAROUSEL SETTINGS
 export default class MultipleItems extends Component {
     sliderRef = React.createRef<Slider>();
+
     render() {
         const settings = {
             dots: false,
@@ -153,15 +157,13 @@ export default class MultipleItems extends Component {
         };
 
         return (
-
             <div className='text-center'>
                 <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <div className="py-14">
-                        <Slider ref={sliderRef} {...settings}>
+                        <Slider ref={this.sliderRef} {...settings}>
                             {data.map((item, i) =>
-                                <div key={i} >
+                                <div key={i}>
                                     <Image src={item.imgSrc} alt={fileNames[i]} width={150} height={150} style={{ height: '50px' }} />
-                               
                                 </div>
                             )}
                         </Slider>
@@ -169,7 +171,6 @@ export default class MultipleItems extends Component {
                     <hr />
                 </div>
             </div>
-
-        )
+        );
     }
 }
