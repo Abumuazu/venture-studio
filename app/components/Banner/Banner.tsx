@@ -25,7 +25,7 @@ const Banner = () => {
             </button>
             <button
               type="button"
-              className="text-15px ml-4 mt-2 text-blue transition duration-150 ease-in-out hover:text-white hover:bg-blue font-medium py-5 px-16 border border-lightgrey leafbutton"
+              className="text-15px ml-4 mt-2 text-[#AB45FF] transition duration-150 ease-in-out hover:text-white hover:bg-[#481251] font-medium py-5 px-16 border border-[#AB45FF] leafbutton    "
             >
               Get started
             </button>

@@ -23,21 +23,21 @@ const whydata: whydata[] = [
 const Why = () => {
   return (
     <div id="about">
-      <div className="mx-auto max-w-7xl px-4 my-20 sm:py-20 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="mx-auto max-w-7xl px-4 my-2 sm:py-20 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-20">
           {/* COLUMN-1 */}
-          <div className="lg:-ml-50">
+          <div className="flex justify-center">
             <Image
-              src="/assets/why/invest.png"
+              src="/assets/why/venture.png"
               alt="iPad-image"
-              width={1000}
+              width={600}
               height={900}
-              className="lg:ml-[-100px]"
+              // className="lg:ml-[-100px]"
             />
           </div>
 
           {/* COLUMN-2 */}
-          <div>
+          <div className="flex flex-col items-center lg:items-start">
             <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight mt-5 text-center lg:text-start">
               Venture Studio
             </h3>
