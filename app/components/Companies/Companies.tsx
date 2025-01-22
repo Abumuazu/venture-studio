@@ -25,7 +25,7 @@ const data: Data[] = [
         imgSrc: "/assets/carousel/enforca.jpeg"
     },
     {
-        imgSrc: "/assets/carousel/Request Mechanic Logo.jpeg"
+        imgSrc: "/assets/carousel/request.svg"
     },
     {
         imgSrc: "/assets/carousel/Stella Sync Logo.png"
@@ -75,7 +75,7 @@ export default class MultipleItems extends Component {
                 {
                     breakpoint: 500,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
@@ -86,7 +86,7 @@ export default class MultipleItems extends Component {
 
         return (
             <div className='text-center'>
-                <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
+                <div className="mx-auto max-w-md px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <div className="py-14">
                         <Slider ref={this.sliderRef} {...settings}>
                             {data.map((item, i) =>
