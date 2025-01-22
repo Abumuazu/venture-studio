@@ -20,7 +20,7 @@ export default function Home() {
       <SPN />
       <Others />
       {/* <Clientsay /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
     </main>
   )
 }

@@ -30,15 +30,15 @@ const footer = () => {
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
                         <img src={'/assets/footer/logo.png'} alt="logo" className='pb-8' />
                         <div className='flex gap-4'>
-                            <Link href="https://facebook.com" className='footer-fb-icons'>
+                            <Link href="https://www.facebook.com/share/17sn45HC2L/" target="_blank" className='footer-fb-icons'>
                                 <Image src={'/assets/footer/facebook.svg'} alt="facebook" width={15} height={20} />
                             </Link>
-                            <Link href="https://twitter.com" className='footer-icons'>
-                                <Image src={'/assets/footer/twitter.svg'} alt="twitter" width={20} height={20} />
-                            </Link>
-                            <Link href="https://instagram.com" className='footer-icons'>
+                            <Link href="https://www.instagram.com/spcuniverse?igsh=YTR3M3Zpemh6cml6" target="_blank" className='footer-icons'>
                                 <Image src={'/assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
                             </Link> 
+                            <Link href="https://www.linkedin.com/company/spc-universe/" target="_blank" className='footer-icons'>
+                                <Image src={'/assets/footer/linkedin.svg'} alt="linkedin" width={20} height={20} />
+                            </Link>
                         </div>
                     </div>
 
@@ -61,15 +61,12 @@ const footer = () => {
                     <div className='col-span-4 md:col-span-4 lg:col-span-4'>
                         <div className="flex gap-2">
                             <Image src={'/assets/footer/mask.svg'} alt="mask-icon" width={24} height={24} />
-                            <h5 className="text-base font-normal text-offwhite">925 Filbert Street Kigali 18072</h5>
+                            <h5 className="text-base font-normal text-offwhite">Office Phase, Kigali Heights, Kigali, Rwanda</h5>
                         </div>
-                        <div className="flex gap-2 mt-10">
-                            <Image src={'/assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
-                            <h5 className="text-base font-normal text-offwhite">+250 792 108 551</h5>
-                        </div>
+                    
                         <div className="flex gap-2 mt-10">
                             <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
-                            <h5 className="text-base font-normal text-offwhite">info@gmail.com</h5>
+                            <h5 className="text-base font-normal text-offwhite">inquiry@silverspoonuniverse.org</h5>
                         </div>
                     </div>
 
@@ -78,7 +75,7 @@ const footer = () => {
                 {/* All Rights Reserved */}
 
                 <div className='py-10 lg:flex items-center justify-between border-t border-t-bordertop'>
-                    <h4 className='text-offwhite text-sm text-center lg:text-start font-normal'>@2023 Agency. All Rights Reserved by <Link href="https://adminmart.com/" target="_blank"> Adminmart.com</Link></h4>
+                    <h4 className='text-offwhite text-sm text-center lg:text-start font-normal'>@2023. All Rights Reserved by <Link href="https://adminmart.com/" target="_blank">SPC UNIVERSE</Link></h4>
                     <div className="flex gap-5 mt-5 lg:mt-0 justify-center lg:justify-start">
                         <h4 className='text-offwhite text-sm font-normal'><Link href="/" target="_blank">Privacy policy</Link></h4>
                         <div className="h-5 bg-bordertop w-0.5"></div>

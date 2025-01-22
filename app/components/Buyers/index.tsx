@@ -23,8 +23,8 @@ const cardData: cardDataType[] = [
     {
         imgSrc: '/assets/buyers/happybuyers.svg',
         percent: '500+',
-        heading: "Founders Investors",
-        subheading: "Strong community of founders investors and angle investors",
+        heading: "Angel Investors",
+        subheading: "Strong community of Angels collectively investing into global opportunities",
     },
     {
         imgSrc: '/assets/buyers/teammembers.svg',

@@ -1,4 +1,7 @@
+"use client";
 import Image from "next/image";
+import React from "react";
+import Slider from "react-slick";
 
 interface whydata {
   heading: string;
@@ -7,39 +10,68 @@ interface whydata {
 
 const whydata: whydata[] = [
   {
-    heading: "ANGELS FUND",
+    heading: "AFRICA DIGITAL INNOVATION SUMMIT",
     subheading:
-      "We currently run a $2million Angel Fund set in building 50-100 early stage companies to Large scaleups fit and ready for great exits. This Fund is brought in together from our Investors Network and Corporate Venture Studio activities bringing good returns for our Investors and Partners.",
+      "Africa Digital Innovation Summit is Africa's most collaborative community-driven event for digital innovators, spotlighting the importance of our Africa continental free trade zone and the role of digital transformation in promoting it.",
   },
   {
-    heading: "TALENT OUTSOURCING",
+    heading: "ACTIVATION EVENTS AND MIXERS",
     subheading:
-      "Through our talent network, we outsource talents on full-time, remote or contract roles across the globe based on the needs of our partners network. We have outsourced over 500+ Talents across 40+ organizations in the course of our journey so far.",
+      "We host mixers and activation events on behalf of our partners network to foster collaborations, networking and strategic partnerships as well as user acquisition and in some cases new market entry.",
   },
 ];
 
 const Why = () => {
+  const SliderRef = React.createRef<Slider>();
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
+  };
+
+  const images = [
+    "/assets/why/slide1.jpeg",
+    "/assets/why/slide2.jpeg",
+    "/assets/why/slide3.jpeg",
+    "/assets/why/slide4.jpeg",
+    "/assets/why/slide5.jpeg",
+    "/assets/why/slide6.jpeg",
+    "/assets/why/slide7.jpeg",
+    "/assets/why/slide8.jpeg",
+  ];
+
   return (
     <div id="about">
       <div className="mx-auto max-w-7xl px-4 mb-20 sm:py-20 lg:px-8 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
           {/* COLUMN-1 */}
-          
-          <div className="flex justify-center">
-            <Image
-              src="/assets/why/others.png"
-              alt="iPad-image"
-              width={500}
-              height={900}
-              style={{ borderRadius: "0.5rem" }}
-            />
+          <div className="">
+            <Slider ref={SliderRef} {...settings}>
+              {images.map((src, i) => (
+                <div key={i}>
+                  <Image
+                    src={src}
+                    alt={`iPad-image-${i}`}
+                    width={500}
+                    height={900}
+                    style={{ borderRadius: "0.5rem" }}
+                  />
+                </div>
+              ))}
+            </Slider>
           </div>
 
           {/* COLUMN-2 */}
           <div>
-            <div className="mt-10">
+            <div>
               {whydata.map((items, i) => (
-                <div className="flex mt-4" key={i}>
+                <div className="flex " key={i}>
                   <div className="rounded-full h-10 w-[30%] flex items-center justify-center bg-circlebg">
                     <Image
                       src="/assets/why/check.svg"

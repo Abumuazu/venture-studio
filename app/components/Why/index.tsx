@@ -14,9 +14,14 @@ const whydata: whydata[] = [
     heading: "GLOBAL EXPANSION PROGRAM",
     subheading: "Prepares founder for growth expansion",
   },
+  
   {
     heading: "FUND ADMINISTRATION",
     subheading: "Administers funds for growth and development",
+  },
+  {
+    heading: "CORPORATE VENTURE STUDIO",
+    subheading: "Supporting enterprises to setup their own venture building system",
   },
 ];
 
@@ -61,9 +66,9 @@ const Why = () => {
                       height={24}
                     />
                   </div>
-                  <div className="ml-5">
+                  <div className="ml-5 flex flex-col justify-start">
                     <h4 className="text-2xl font-semibold">{items.heading}</h4>
-                    <h5 className="text-lg text-beach font-normal mt-2">
+                    <h5 className="text-lg text-beach font-normal mt-2 max-w-10">
                       {items.subheading}
                     </h5>
                   </div>

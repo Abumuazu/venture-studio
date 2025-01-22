@@ -10,97 +10,25 @@ interface Data {
 
 const data: Data[] = [
     {
-        imgSrc: "/assets/carousel/Lopsim Technologies Logo.png"
+        imgSrc: "/assets/carousel/fundedai.png"
     },
     {
-        imgSrc: "/assets/carousel/Homly logo.png"
+        imgSrc: "/assets/carousel/boosty.jpeg"
     },
     {
-        imgSrc: "/assets/carousel/Nexus Integrated Global Service Ltd Logo.PNG"
+        imgSrc: "/assets/carousel/raum.svg"
     },
     {
-        imgSrc: "/assets/carousel/Nitram Frost Logo.PNG"
+        imgSrc: "/assets/carousel/Mavenaide Logo .svg"
     },
     {
-        imgSrc: "/assets/carousel/Ovaloop Company Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Plug Afrika Logo.jpg"
-    },
-    {
-        imgSrc: "/assets/carousel/Prazic Ltd Logo.PNG"
-    },
-    {
-        imgSrc: "/assets/carousel/Prizeless Logo.png"
+        imgSrc: "/assets/carousel/enforca.jpeg"
     },
     {
         imgSrc: "/assets/carousel/Request Mechanic Logo.jpeg"
     },
     {
-        imgSrc: "/assets/carousel/ROI Africa Logo.jpeg"
-    },
-    {
-        imgSrc: "/assets/carousel/slack.png"
-    },
-    {
         imgSrc: "/assets/carousel/Stella Sync Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Teachly Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Terabyte Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Trashformas Logo.jpg"
-    },
-
-    {
-        imgSrc: "/assets/carousel/Ziba Essentials Trading Ltd Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/AptConnect Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Big Step Africa Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Boosty Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Careers Verified Logo.jpg"
-    },
-    {
-        imgSrc: "/assets/carousel/COE Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/Damo Export Trade Africa Logo.png"
-    },
-    {
-        imgSrc: "/assets/carousel/DHARKAG Foods Ltd.jpg"
-    },
-    {
-        imgSrc: "/assets/carousel/DSA Lagos Logo.PNG"
-    },
-    {
-        imgSrc: "/assets/carousel/Ecorewards Logo.jpg"
-    },
-    {
-        imgSrc: "/assets/carousel/Falconlite Logo.jpeg"
-    },
-    {
-        imgSrc: "/assets/carousel/Gudan Farms Logo.png"
-    },
- 
-    {
-        imgSrc: "/assets/carousel/Innovative Village Logo.png"
-    },
-  
-    {
-        imgSrc: "/assets/carousel/Mavenaide Logo .png"
-    },
-    {
-        imgSrc: "/assets/carousel/Prizeless Logo.png"
     },
 ];
 
@@ -163,7 +91,7 @@ export default class MultipleItems extends Component {
                         <Slider ref={this.sliderRef} {...settings}>
                             {data.map((item, i) =>
                                 <div key={i}>
-                                    <Image src={item.imgSrc} alt={fileNames[i]} width={150} height={150} style={{ height: '50px' }} />
+                                    <Image src={item.imgSrc} alt={fileNames[i]} width={150} height={150}/>
                                 </div>
                             )}
                         </Slider>

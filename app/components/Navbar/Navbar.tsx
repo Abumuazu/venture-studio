@@ -48,7 +48,7 @@ const Navbar = () => {
                                 <img
                                     className="hidden h-full w-full lg:block"
                                     src={'/assets/logo/logo.png'}
-                                    alt="dsign-logo"
+                                    alt="SPC-logo"
                                 />
                             </div>
 
