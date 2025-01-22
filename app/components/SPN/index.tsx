@@ -8,11 +8,11 @@ const SPN = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           {/* COLUMN-1 */}
           <div className="col-span-6 flex justify-center items-center">
-            <div className="flex flex-col justify-center p-10">
-              <p className="text-4xl lg:text-5xl pt-4 font-semibold lh-6 text-center lg:text-start">
+            <div className="flex flex-col justify-center">
+              <h3 className="text-4xl lg:text-5xl pt-4 font-semibold sm:leading-tight text-center lg:text-start">
                 Silverspoon Partners Network
-              </p>
-              <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
+              </h3>
+              <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center lg:text-start text-bluegray ">
                 Our Silverspoon Partners Network allows organizations from
                 across the globe to partner with us to tap into our global
                 network to solve their growth needs across Marketing, Global

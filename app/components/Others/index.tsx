@@ -47,20 +47,20 @@ const Why = () => {
   ];
 
   return (
-    <div id="about">
-      <div className="mx-auto max-w-7xl px-4 mb-20 sm:py-20 lg:px-8 ">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+    <div id="about" className="">
+      <div className="mx-auto max-w-7xl px-4 sm:py-20 lg:px-8 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 sm:gap--5 ">
           {/* COLUMN-1 */}
-          <div className="">
+          <div className="max-w-full overflow-hidden">
             <Slider ref={SliderRef} {...settings}>
               {images.map((src, i) => (
-                <div key={i}>
+                <div key={i} className="flex justify-center">
                   <Image
                     src={src}
                     alt={`iPad-image-${i}`}
                     width={500}
                     height={900}
-                    style={{ borderRadius: "0.5rem" }}
+                    style={{ borderRadius: "0.5rem", maxWidth: "100%", height: "auto" }}
                   />
                 </div>
               ))}

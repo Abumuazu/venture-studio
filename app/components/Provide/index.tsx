@@ -32,11 +32,11 @@ const Provide = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* COLUMN-1 */}
           <div className="col-span-6 flex justify-center">
-            <div className="flex flex-col align-middle justify-center p-10">
+            <div className="flex flex-col align-middle justify-center">
               <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81  text-center lg:text-start">
                 About Us.
               </p>
-              <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
+              <h4 className="text-lg pt-4 font-normal sm:leading-tight text-center text-beach lg:text-start">
                 SPC UNIVERSE is one of the world’s fastest growing global
                 networks for innovators. Her network currently spans across 15
                 countries in the world and is constantly growing at an

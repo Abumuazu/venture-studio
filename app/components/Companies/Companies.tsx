@@ -85,7 +85,7 @@ export default class MultipleItems extends Component {
         };
 
         return (
-            <div className='text-center'>
+            <div className='text-center mb--10'>
                 <div className="mx-auto max-w-md px-4 sm:px-6 lg:max-w-7xl lg:px-8">
                     <div className="py-14">
                         <Slider ref={this.sliderRef} {...settings}>
