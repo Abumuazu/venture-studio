@@ -37,7 +37,7 @@ const footer = () => {
                                 <Image src={'/assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
                             </Link> 
                             <Link href="https://www.linkedin.com/company/spc-universe/" target="_blank" className='footer-icons'>
-                                <Image src={'/assets/footer/linkedin.svg'} alt="linkedin" width={20} height={20} />
+                                <Image src={'/assets/footer/Linkedin.svg'} alt="linkedin" width={20} height={20} />
                             </Link>
                         </div>
                     </div>
