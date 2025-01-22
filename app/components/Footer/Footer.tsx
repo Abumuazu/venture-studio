@@ -59,7 +59,7 @@ const footer = () => {
                 className="footer-icons"
               >
                 <Image
-                  src={"/assets/footer/Linkedin.svg"}
+                  src={"/assets/footer/linkedIn.svg"}
                   alt="linkedin"
                   width={20}
                   height={20}
