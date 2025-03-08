@@ -101,7 +101,7 @@ const footer = () => {
                 height={24}
               />
               <h5 className="text-base font-normal text-offwhite">
-                Office Phase, Kigali Heights, Kigali, Rwanda
+              Norrsken house, Kigali.
               </h5>
             </div>
 
